@@ -205,7 +205,7 @@ def upload():
         y = request.form.get('y')
 
 
-        response=readImg("imaaaaaaaage.jpg",x,y)
+        #response=readImg("imaaaaaaaage.jpg",x,y)
         #figit("imaaaaaaaage.jpg")
         print(response)
 
