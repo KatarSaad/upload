@@ -196,7 +196,7 @@ def upload():
     global response
     if(request.method=="POST"):
         imagefile=request.files['file']
-        print (request.args.get('id'))
+
 
         filename=werkzeug.utils.secure_filename(imagefile.filename)
         img=imagefile.save("imaaaaaaaage.jpg")

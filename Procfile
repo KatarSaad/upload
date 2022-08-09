@@ -1,1 +1,1 @@
-web: gunicorn upload:app
+pyweb: gunicorn upload:app
